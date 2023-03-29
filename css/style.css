@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(9, 37, 9);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.screen-one{
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  align-items: center;
+}
+
+.screen-one .title-one{
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.screen-one .subtitle-one{
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.screen-one form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: rgb(27, 119, 27);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 0px rgb(45, 209, 45);
+}
+
+.screen-one form label{
+  font-size: 14px;
+  color: #ffffff
+}
+
+.screen-one form input{
+  border: 1px solid rgba(255, 0, 0, 0);
+  outline: none;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.screen-one form select{
+  border-radius: 5px;
+  width: 200px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.screen-one form #buttonCalcular{
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: rgb(9, 37, 9);
+}
+
+.screen-one form #buttonCalcular:hover{
+  cursor: pointer;
+}
+
+.screen-one form .error{
+  border: 1px solid red;
+}
+
+.screen-two{
+  width: 60%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 200px;
+  align-items: center;
+  background-color: rgb(27, 119, 27);
+  box-shadow: 0px 0px 20px 0px rgb(45, 209, 45);
+}
+
+.screen-two .title-two{
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.screen-two #buttonRecalcular{
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: rgb(9, 37, 9);
+}
+
+.screen-two #buttonRecalcular:hover{
+  cursor: pointer;
+}
+
+.hidden{
+  display: none;
+}

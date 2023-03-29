@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Juros Compostos</title>
+</head>
+<body>
+  
+  <div class="screen-one">
+    <span class="title-one">
+      Juros Compostos
+    </span>
+
+    <span class="subtitle-one">
+      Simulator
+    </span>
+
+    <form>
+      <label>Nome</label>
+      <input type="text" id="name" class="">
+
+      <label>Mensalidade</label>
+      <input type="text" id="mensalidade">
+
+      <label>Taxa de Juros</label>
+      <input type="text" id="taxa-de-juros">
+
+      <label>Tempo de contribuição</label>
+      <select id="year">
+        <option value="1">1 ano</option>
+        <option value="2">2 anos</option>
+        <option value="3">3 anos</option>
+        <option value="4">4 anos</option>
+        <option value="5">5 anos</option>
+      </select>
+
+      <button id="buttonCalcular">Calcular</button>
+    </form>
+  </div>
+
+  <div class="screen-two hidden">
+    <span class="title-two">
+
+    </span>
+
+    <button id="buttonRecalcular">Simular novamente</button>
+  </div>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
