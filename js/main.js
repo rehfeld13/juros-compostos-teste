@@ -46,7 +46,7 @@ buttonCalcular.addEventListener('click',(e)=>{
 
   if(check === 1){
 
-    fetch('http://api.mathjs.org/v4/', {
+    fetch('https://api.mathjs.org/v4/', {
       method:'POST',
       headers:{'content-type': 'application/json'},
       body: JSON.stringify({ "expr": `${valueMensalidade} * (((1 + ${valueTaxaDeJurosReplace/100}) ^ ${valueTempoEmMeses} - 1) / ${valueTaxaDeJurosReplace})` })
